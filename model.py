@@ -14,7 +14,7 @@ from setmodules import *
 
 
 class PCAE(nn.Module):
-    def __init__(self,config, num_capsules=24, template_size=11, num_templates=24,num_feature_maps=24):
+    def __init__(self,config=None, num_capsules=24, template_size=11, num_templates=24,num_feature_maps=24):
         super(PCAE,self).__init__()
         self.num_capsules = num_capsules
         self.num_feature_maps = num_feature_maps       

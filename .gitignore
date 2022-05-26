@@ -1,4 +1,4 @@
 __pycache__
 .vscode
-log/*
-model/*
+log/SCAE.log
+model/SCAE.model
